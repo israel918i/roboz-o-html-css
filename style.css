@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #da291c; 
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.conteudo {
+  background-color: #2b2b2b;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.conteudo h2 {
+  color: #ffc72c; 
+  margin-bottom: 15px;
+}
+.conteudo p {
+  margin-bottom: 12px;
+}
+.cartao-perfil {
+  width: 320px;
+  margin: 0 auto 30px auto;
+  padding: 25px 20px;
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.foto-cartao {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.cartao-perfil h3 {
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+
+.cartao-perfil .cargo {
+  font-size: 0.85rem;
+  color: #ffc72c;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.cartao-perfil .bio {
+  font-size: 0.9rem;
+  color: #cccccc;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85rem;
+  color: #888888;
+}
